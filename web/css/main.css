@@ -3933,8 +3933,8 @@ tbody.collapse.in {
       margin-right: 0; } }
 
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7; }
+  background-color: #FFF;
+  border-color: #eeeeee; }
   .navbar-default .navbar-brand {
     color: #444; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -3961,7 +3961,7 @@ tbody.collapse.in {
       background-color: #888; }
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: #e7e7e7; }
+    border-color: #eeeeee; }
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background-color: transparent;
     color: #78A53B; }
