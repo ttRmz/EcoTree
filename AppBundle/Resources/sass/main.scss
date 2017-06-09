@@ -591,3 +591,27 @@ footer {
         margin-top: 50px;
     }
 }
+
+/////////////// GESTION DURABLE
+.gestion-durable-section {
+    background-image: url(../img/foret4_mix.jpg);
+    background-attachment: fixed;
+    .gestion-durable-head {
+        margin-bottom: 40px;
+    }
+    h4 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    i {
+        float: left;
+        margin-top: 2px;
+    }
+    p {
+        font-weight: 500;
+        margin-left: 15px;
+    }
+    span {
+        font-size: 20px;
+    }
+}

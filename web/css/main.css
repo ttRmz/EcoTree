@@ -6239,3 +6239,20 @@ footer {
 
 .constats-section img {
   margin-top: 50px; }
+
+.gestion-durable-section {
+  background-image: url(../img/foret4_mix.jpg);
+  background-attachment: fixed; }
+  .gestion-durable-section .gestion-durable-head {
+    margin-bottom: 40px; }
+  .gestion-durable-section h4 {
+    margin-top: 40px;
+    margin-bottom: 30px; }
+  .gestion-durable-section i {
+    float: left;
+    margin-top: 2px; }
+  .gestion-durable-section p {
+    font-weight: 500;
+    margin-left: 15px; }
+  .gestion-durable-section span {
+    font-size: 20px; }
