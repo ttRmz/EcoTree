@@ -5814,6 +5814,9 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+.no-margin {
+  margin: 0 !important; }
+
 .separator {
   border: 0;
   border-top: 2px solid #333;
@@ -5993,7 +5996,8 @@ nav {
   .concept-section span {
     font-size: 18px;
     margin: 10px 0;
-    margin-bottom: 30px; }
+    margin-bottom: 40px;
+    margin-top: 20px; }
   .concept-section b {
     font-weight: 700; }
   .concept-section sm {
@@ -6210,3 +6214,28 @@ footer {
     background-color: #E62117; }
   footer .fa-instagram {
     background-color: #3F729B; }
+
+.foret-title {
+  padding: 70px 0;
+  margin-top: 100px;
+  background-image: url("../img/foret3.jpg");
+  background-attachment: fixed; }
+  .foret-title h1 {
+    letter-spacing: 2px;
+    font-size: 47px;
+    font-weight: 100;
+    color: #fff; }
+
+.constats-section h2 {
+  margin-bottom: 40px; }
+
+.constats-section p {
+  font-weight: 500;
+  margin-top: 15px; }
+
+.constats-section i {
+  margin-top: 40px;
+  font-size: 22px; }
+
+.constats-section img {
+  margin-top: 50px; }
