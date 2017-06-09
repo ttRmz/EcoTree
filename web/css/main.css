@@ -5822,6 +5822,34 @@ button.close {
   border-top: 2px solid #333;
   width: 50px; }
 
+.col-xs-8r,
+.col-sm-8r,
+.col-md-8r,
+.col-lg-8r {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.col-xs-8r {
+  width: 12.5%;
+  float: left; }
+
+@media (min-width: 768px) {
+  .col-sm-8r {
+    width: 12.5%;
+    float: left; } }
+
+@media (min-width: 992px) {
+  .col-md-8r {
+    width: 12.5%;
+    float: left; } }
+
+@media (min-width: 1200px) {
+  .col-lg-8r {
+    width: 12.5%;
+    float: left; } }
+
 .col-xs-5ths,
 .col-sm-5ths,
 .col-md-5ths,
@@ -6023,17 +6051,22 @@ nav {
 
 .benefices-section .cont-benefices {
   margin-top: 40px; }
+  .benefices-section .cont-benefices p {
+    margin-left: 20px; }
 
 .tabbable-panel {
   padding: 10px; }
 
 .tabbable-line .nav-tabs {
   border-bottom: 4px solid #fff; }
-  .tabbable-line .nav-tabs li a {
-    border: 0;
-    margin: 0;
-    background: none !important;
-    padding: 10px 0; }
+  .tabbable-line .nav-tabs li {
+    border-bottom: 2px solid #fff; }
+    .tabbable-line .nav-tabs li a {
+      border: 0;
+      margin: 0;
+      background: none !important;
+      padding: 10px 0;
+      text-align: center; }
   .tabbable-line .nav-tabs li.active {
     border-bottom: 2px solid #78a538;
     position: relative; }
@@ -6049,8 +6082,7 @@ nav {
   .tabbable-line .tab-content p {
     color: #333;
     font-weight: 500;
-    line-height: 1.5;
-    margin-left: 20px; }
+    line-height: 1.5; }
   .tabbable-line .tab-content i {
     position: absolute;
     margin-top: 2px; }
@@ -6256,3 +6288,22 @@ footer {
     margin-left: 15px; }
   .gestion-durable-section span {
     font-size: 20px; }
+
+.les-forets-section h2 {
+  margin-bottom: 40px; }
+
+.les-forets-section .cont-les-forets {
+  margin-top: 20px; }
+
+.les-forets-section .tab-content h4 {
+  line-height: 2;
+  margin-bottom: 30px; }
+
+@media (max-width: 480px) {
+  .les-forets-section h4 {
+    font-size: 12px; }
+  .les-forets-section .cont-les-forets {
+    margin: 0;
+    padding: 0; }
+  .les-forets-section .tabbable-panel {
+    padding: 0; } }
