@@ -1074,7 +1074,7 @@ a {
   text-decoration: none; }
   a:hover, a:focus {
     color: #515151;
-    text-decoration: underline; }
+    text-decoration: none; }
   a:focus {
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
@@ -3061,7 +3061,7 @@ fieldset[disabled] a.btn {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
     color: #515151;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
   fieldset[disabled] .btn-link:hover,
@@ -6075,6 +6075,78 @@ nav {
   padding: 20px;
   border-radius: 50%; }
 
+.selection-section h2 {
+  margin-bottom: 40px; }
+
+.selection-section .cont-selection {
+  margin-top: 50px;
+  margin-bottom: 20px; }
+
+.selection-section .product-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  .selection-section .product-image img,
+  .selection-section .product-image a,
+  .selection-section .product-image .slide a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+.selection-section .product-overlay {
+  position: absolute;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  top: auto;
+  bottom: -44px;
+  left: 0;
+  z-index: 6;
+  transition: bottom 0.3s ease-in-out;
+  -o-transition: bottom 0.3s ease-in-out; }
+
+.selection-section .product-overlay a {
+  display: block;
+  float: left;
+  width: 50%;
+  font-size: 13px;
+  color: #333;
+  background-color: #F9F9F9;
+  text-align: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  font-weight: 500; }
+
+.selection-section .product-overlay a.item-quick-view {
+  border-right: 0; }
+
+.selection-section .product-overlay a i {
+  position: relative;
+  top: 1px;
+  font-size: 14px;
+  margin-right: 3px; }
+
+.selection-section .product-overlay a:hover {
+  background-color: #78a538;
+  border-color: #78a538;
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
+
+.selection-section body:not(.device-touch):not(.device-xs):not(.device-xxs) .product-overlay {
+  -webkit-transition: bottom 0.3s ease-in-out;
+  transition: bottom 0.3s ease-in-out; }
+
+.selection-section body:not(.device-touch):not(.device-xs):not(.device-xxs) .product-overlay a {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.selection-section .product:hover .product-overlay {
+  bottom: 0; }
+
+.selection-section .product-desc small {
+  font-weight: 500; }
+
 .media-section {
   background-color: #F9F9F9; }
   .media-section span {
@@ -6107,15 +6179,13 @@ footer {
     color: #CCC;
     font-weight: 500;
     font-size: 13px;
-    text-decoration: none;
     -webkit-transition: color 200ms ease-in-out;
     -moz-transition: color 200ms ease-in-out;
     -ms-transition: color 200ms ease-in-out;
     -o-transition: color 200ms ease-in-out;
     transition: color 200ms ease-in-out; }
   footer a:hover {
-    color: #999;
-    text-decoration: none; }
+    color: #999; }
   footer i {
     font-size: 12px; }
   footer .fa-facebook,
