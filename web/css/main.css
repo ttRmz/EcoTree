@@ -5875,6 +5875,7 @@ button.close {
 
 h2 {
   font-weight: 500;
+  text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 28px; }
 
@@ -6013,8 +6014,11 @@ nav {
   margin-bottom: 10px;
   margin-top: 35px; }
 
-.benefices-section h4 {
-  text-transform: none; }
+.benefices-section h2 {
+  margin-bottom: 40px; }
+
+.benefices-section .cont-benefices {
+  margin-top: 40px; }
 
 .tabbable-panel {
   padding: 10px; }
@@ -6059,7 +6063,7 @@ nav {
     font-size: 13px;
     font-weight: 500; }
   .offres-section h2 {
-    padding-bottom: 32px; }
+    margin-bottom: 40px; }
 
 .cont-offres {
   margin-bottom: 30px;
@@ -6149,6 +6153,8 @@ nav {
   background-color: #F9F9F9; }
   .media-section span {
     font-weight: 100; }
+  .media-section h2 {
+    margin-bottom: 40px; }
   .media-section .cont-media {
     margin-bottom: 40px;
     margin-top: 15px; }
