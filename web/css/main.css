@@ -6054,15 +6054,23 @@ nav {
   .benefices-section .cont-benefices p {
     margin-left: 20px; }
 
+.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+.nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus {
+  border: 0 !important; }
+
 .tabbable-panel {
   padding: 10px; }
+
+.tabbable-line .nav-justified li {
+  top: 1px; }
 
 .tabbable-line .nav-tabs {
   border-bottom: 4px solid #fff; }
   .tabbable-line .nav-tabs li {
     border-bottom: 2px solid #fff; }
     .tabbable-line .nav-tabs li a {
-      border: 0;
+      border: 0 !important;
       margin: 0;
       background: none !important;
       padding: 10px 0;
@@ -6071,7 +6079,7 @@ nav {
     border-bottom: 2px solid #78a538;
     position: relative; }
     .tabbable-line .nav-tabs li.active a {
-      border: 0; }
+      border: 0 !important; }
 
 .tabbable-line .tab-content {
   margin-top: -3px;

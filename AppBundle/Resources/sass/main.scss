@@ -356,17 +356,31 @@
     }
     
     ////////////// TAB
+    .nav-tabs-justified>.active>a,
+    .nav-tabs.nav-justified>.active>a,
+    .nav-tabs-justified>.active>a:hover,
+    .nav-tabs.nav-justified>.active>a:hover,
+    .nav-tabs-justified>.active>a:focus,
+    .nav-tabs.nav-justified>.active>a:focus {
+        border: 0 !important;
+    }
+    
     .tabbable-panel {
         padding: 10px;
     }
     
     .tabbable-line {
+        .nav-justified {
+            li {
+                top: 1px;
+            }
+        }
         .nav-tabs {
             border-bottom: 4px solid #fff;
             li {
                 border-bottom: 2px solid #fff;
                 a {
-                    border: 0;
+                    border: 0 !important;
                     margin: 0;
                     background: none !important;
                     padding: 10px 0;
@@ -377,7 +391,7 @@
                 border-bottom: 2px solid $green;
                 position: relative;
                 a {
-                    border: 0;
+                    border: 0 !important;
                 }
             }
         }
