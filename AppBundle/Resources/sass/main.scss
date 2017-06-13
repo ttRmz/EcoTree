@@ -328,12 +328,6 @@ nav {
 
 .benefices-section-entreprises {
     background-color: $light-grey-bg;
-    .nav-tabs {
-        border-bottom: 4px solid $light-grey-bg !important;
-        li {
-            border-bottom: 2px solid $light-grey-bg !important;
-        }
-    }
 }
 
 .benefices-section {
@@ -369,9 +363,9 @@ nav {
         }
     }
     .nav-tabs {
-        border-bottom: 4px solid #fff;
+        border-bottom: 4px solid transparent;
         li {
-            border-bottom: 2px solid #fff;
+            border-bottom: 2px solid transparent;
             a {
                 border: 0 !important;
                 margin: 0;
@@ -792,4 +786,10 @@ footer {
     p {
         line-height: 2;
     }
+}
+
+//////////////// L'ÉQUIPE
+.equipe-section {
+    background-image: url(../img/foret4_mix.jpg);
+    background-attachment: fixed;
 }

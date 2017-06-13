@@ -6062,10 +6062,6 @@ nav {
 
 .benefices-section-entreprises {
   background-color: #F9F9F9; }
-  .benefices-section-entreprises .nav-tabs {
-    border-bottom: 4px solid #F9F9F9 !important; }
-    .benefices-section-entreprises .nav-tabs li {
-      border-bottom: 2px solid #F9F9F9 !important; }
 
 .benefices-section h2 {
   margin-bottom: 40px; }
@@ -6087,9 +6083,9 @@ nav {
   top: 1px; }
 
 .tabbable-line .nav-tabs {
-  border-bottom: 4px solid #fff; }
+  border-bottom: 4px solid transparent; }
   .tabbable-line .nav-tabs li {
-    border-bottom: 2px solid #fff; }
+    border-bottom: 2px solid transparent; }
     .tabbable-line .nav-tabs li a {
       border: 0 !important;
       margin: 0;
@@ -6412,3 +6408,7 @@ footer {
 
 .valeurs-section p {
   line-height: 2; }
+
+.equipe-section {
+  background-image: url(../img/foret4_mix.jpg);
+  background-attachment: fixed; }
