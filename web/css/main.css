@@ -5922,9 +5922,17 @@ h5 {
 b {
   font-weight: 500; }
 
+.sm,
 sm {
   font-size: 75%;
   font-weight: 100; }
+
+.bgg,
+bgg {
+  font-size: 135%; }
+
+.strong {
+  font-weight: bold; }
 
 #header_logo {
   padding: 0; }
@@ -6394,3 +6402,13 @@ footer {
 
 .event-section h4 {
   line-height: 1.5; }
+
+.valeurs-section h2 {
+  margin-bottom: 40px; }
+
+.valeurs-section h4 {
+  margin-top: 40px;
+  margin-bottom: 20px; }
+
+.valeurs-section p {
+  line-height: 2; }
