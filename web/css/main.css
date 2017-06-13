@@ -6019,32 +6019,49 @@ nav {
   #invest {
     font-size: 20px !important; } }
 
-.concept-section {
+.concept-section-acceuil {
   background-color: #F9F9F9; }
-  .concept-section span {
-    font-size: 18px;
-    margin: 10px 0;
+  .concept-section-acceuil .cont-concept {
     margin-bottom: 40px;
-    margin-top: 20px; }
-  .concept-section b {
-    font-weight: 700; }
-  .concept-section sm {
-    font-size: 75%;
-    font-weight: 100; }
+    margin-top: 15px; }
 
-.cont-concept {
+.concept-section-entreprises {
+  background-color: #FFF; }
+  .concept-section-entreprises .cont-concept {
+    margin-bottom: 0; }
+
+.concept-section span {
+  font-size: 16px;
+  margin: 10px 0;
   margin-bottom: 40px;
-  margin-top: 15px; }
+  margin-top: 20px; }
 
-@media (max-width: 768px) {
-  span {
-    font-size: 16px !important; } }
+.concept-section b {
+  font-weight: 700; }
 
-.img-concept {
+.concept-section sm {
+  font-size: 75%;
+  font-weight: 100; }
+
+.concept-section .img-concept {
   max-height: 60px;
   width: auto;
   margin-bottom: 10px;
   margin-top: 35px; }
+
+.benefices-section-acceuil {
+  background-color: #fff; }
+  .benefices-section-acceuil .nav-tabs {
+    border-bottom: 4px solid #fff; }
+    .benefices-section-acceuil .nav-tabs li {
+      border-bottom: 2px solid #fff; }
+
+.benefices-section-entreprises {
+  background-color: #F9F9F9; }
+  .benefices-section-entreprises .nav-tabs {
+    border-bottom: 4px solid #F9F9F9; }
+    .benefices-section-entreprises .nav-tabs li {
+      border-bottom: 2px solid #F9F9F9; }
 
 .benefices-section h2 {
   margin-bottom: 40px; }
@@ -6065,25 +6082,21 @@ nav {
 .tabbable-line .nav-justified li {
   top: 1px; }
 
-.tabbable-line .nav-tabs {
-  border-bottom: 4px solid #fff; }
-  .tabbable-line .nav-tabs li {
-    border-bottom: 2px solid #fff; }
-    .tabbable-line .nav-tabs li a {
-      border: 0 !important;
-      margin: 0;
-      background: none !important;
-      padding: 10px 0;
-      text-align: center; }
-  .tabbable-line .nav-tabs li.active {
-    border-bottom: 2px solid #78a538;
-    position: relative; }
-    .tabbable-line .nav-tabs li.active a {
-      border: 0 !important; }
+.tabbable-line .nav-tabs li a {
+  border: 0 !important;
+  margin: 0;
+  background: none !important;
+  padding: 10px 0;
+  text-align: center; }
+
+.tabbable-line .nav-tabs li.active {
+  border-bottom: 2px solid #78a538;
+  position: relative; }
+  .tabbable-line .nav-tabs li.active a {
+    border: 0 !important; }
 
 .tabbable-line .tab-content {
   margin-top: -3px;
-  background-color: #fff;
   border: 0;
   border-top: 1px solid #999;
   padding: 15px 0; }
@@ -6315,3 +6328,56 @@ footer {
     padding: 0; }
   .les-forets-section .tabbable-panel {
     padding: 0; } }
+
+.entreprises-title {
+  background-image: url(../img/foret3.jpg);
+  margin-top: 100px;
+  background-attachment: fixed; }
+  .entreprises-title h1 {
+    font-weight: 100;
+    font-size: 47px;
+    margin: 50px 0; }
+  .entreprises-title button {
+    margin-bottom: 50px; }
+
+.carousel-fade {
+  width: 90%; }
+  .carousel-fade .carousel-inner {
+    min-height: 200px; }
+    .carousel-fade .carousel-inner .item {
+      transition-property: opacity; }
+      .carousel-fade .carousel-inner .item p {
+        padding: 30px 0;
+        font-size: 16px;
+        font-weight: 500; }
+      .carousel-fade .carousel-inner .item h4 {
+        margin-bottom: 50px; }
+    .carousel-fade .carousel-inner .item,
+    .carousel-fade .carousel-inner .active.left,
+    .carousel-fade .carousel-inner .active.right {
+      opacity: 0; }
+    .carousel-fade .carousel-inner .active,
+    .carousel-fade .carousel-inner .next.left,
+    .carousel-fade .carousel-inner .prev.right {
+      opacity: 1; }
+    .carousel-fade .carousel-inner .next,
+    .carousel-fade .carousel-inner .prev,
+    .carousel-fade .carousel-inner .active.left,
+    .carousel-fade .carousel-inner .active.right {
+      left: 0;
+      transform: translate3d(0, 0, 0); }
+  .carousel-fade .carousel-control {
+    z-index: 2; }
+  .carousel-fade .carousel-indicators {
+    background-color: #78a538;
+    left: 0;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    text-align: center; }
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%; }
