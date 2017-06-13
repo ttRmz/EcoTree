@@ -6051,17 +6051,13 @@ nav {
 
 .benefices-section-acceuil {
   background-color: #fff; }
-  .benefices-section-acceuil .nav-tabs {
-    border-bottom: 4px solid #fff; }
-    .benefices-section-acceuil .nav-tabs li {
-      border-bottom: 2px solid #fff; }
 
 .benefices-section-entreprises {
   background-color: #F9F9F9; }
   .benefices-section-entreprises .nav-tabs {
-    border-bottom: 4px solid #F9F9F9; }
+    border-bottom: 4px solid #F9F9F9 !important; }
     .benefices-section-entreprises .nav-tabs li {
-      border-bottom: 2px solid #F9F9F9; }
+      border-bottom: 2px solid #F9F9F9 !important; }
 
 .benefices-section h2 {
   margin-bottom: 40px; }
@@ -6082,18 +6078,21 @@ nav {
 .tabbable-line .nav-justified li {
   top: 1px; }
 
-.tabbable-line .nav-tabs li a {
-  border: 0 !important;
-  margin: 0;
-  background: none !important;
-  padding: 10px 0;
-  text-align: center; }
-
-.tabbable-line .nav-tabs li.active {
-  border-bottom: 2px solid #78a538;
-  position: relative; }
-  .tabbable-line .nav-tabs li.active a {
-    border: 0 !important; }
+.tabbable-line .nav-tabs {
+  border-bottom: 4px solid #fff; }
+  .tabbable-line .nav-tabs li {
+    border-bottom: 2px solid #fff; }
+    .tabbable-line .nav-tabs li a {
+      border: 0 !important;
+      margin: 0;
+      background: none !important;
+      padding: 10px 0;
+      text-align: center; }
+  .tabbable-line .nav-tabs li.active {
+    border-bottom: 2px solid #78a538 !important;
+    position: relative; }
+    .tabbable-line .nav-tabs li.active a {
+      border: 0 !important; }
 
 .tabbable-line .tab-content {
   margin-top: -3px;
@@ -6268,12 +6267,12 @@ footer {
   footer .fa-instagram {
     background-color: #3F729B; }
 
-.foret-title {
+.cont-title {
   padding: 70px 0;
   margin-top: 100px;
   background-image: url("../img/foret3.jpg");
   background-attachment: fixed; }
-  .foret-title h1 {
+  .cont-title h1 {
     letter-spacing: 2px;
     font-size: 47px;
     font-weight: 100;

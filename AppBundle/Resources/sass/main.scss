@@ -347,20 +347,14 @@ nav {
 //////////// BENEFICES
 .benefices-section-acceuil {
     background-color: #fff;
-    .nav-tabs {
-        border-bottom: 4px solid #fff;
-        li {
-            border-bottom: 2px solid #fff;
-        }
-    }
 }
 
 .benefices-section-entreprises {
     background-color: $light-grey-bg;
     .nav-tabs {
-        border-bottom: 4px solid $light-grey-bg;
+        border-bottom: 4px solid $light-grey-bg !important;
         li {
-            border-bottom: 2px solid $light-grey-bg;
+            border-bottom: 2px solid $light-grey-bg !important;
         }
     }
 }
@@ -398,7 +392,9 @@ nav {
         }
     }
     .nav-tabs {
+        border-bottom: 4px solid #fff;
         li {
+            border-bottom: 2px solid #fff;
             a {
                 border: 0 !important;
                 margin: 0;
@@ -408,7 +404,7 @@ nav {
             }
         }
         li.active {
-            border-bottom: 2px solid $green;
+            border-bottom: 2px solid $green !important;
             position: relative;
             a {
                 border: 0 !important;
@@ -633,8 +629,8 @@ footer {
     }
 }
 
-//////////////// PAGE FORÊTS
-.foret-title {
+//////////////// TITRE PAGE
+.cont-title {
     h1 {
         letter-spacing: 2px;
         font-size: 47px;
