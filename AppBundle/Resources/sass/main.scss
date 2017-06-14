@@ -794,14 +794,21 @@ footer {
     background-attachment: fixed;
 }
 
-////////////// MENTIONS LEGALES
-.mentions-legales-section {
+////////////// MENTIONS LEGALES & CONDITIONS GENERALES
+.listing-section {
     margin-top: 100px;
     margin-bottom: 30px;
     p {
         font-weight: 100;
     }
     h5 {
+        font-size: 13px;
         margin-top: 30px;
+    }
+    h3 {
+        margin: 70px 0;
+    }
+    hr {
+        border-top: 2px solid $green;
     }
 }
