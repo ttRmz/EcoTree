@@ -6412,3 +6412,11 @@ footer {
 .equipe-section {
   background-image: url(../img/foret4_mix.jpg);
   background-attachment: fixed; }
+
+.mentions-legales-section {
+  margin-top: 100px;
+  margin-bottom: 30px; }
+  .mentions-legales-section p {
+    font-weight: 100; }
+  .mentions-legales-section h5 {
+    margin-top: 30px; }
