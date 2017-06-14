@@ -6413,10 +6413,15 @@ footer {
   background-image: url(../img/foret4_mix.jpg);
   background-attachment: fixed; }
 
-.mentions-legales-section {
+.listing-section {
   margin-top: 100px;
   margin-bottom: 30px; }
-  .mentions-legales-section p {
+  .listing-section p {
     font-weight: 100; }
-  .mentions-legales-section h5 {
+  .listing-section h5 {
+    font-size: 13px;
     margin-top: 30px; }
+  .listing-section h3 {
+    margin: 70px 0; }
+  .listing-section hr {
+    border-top: 2px solid #78a538; }
