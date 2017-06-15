@@ -3,56 +3,15 @@
 @import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'custom';
 $green: #78a538;
-$grey: #777;
 $dark: #333;
-$red:#a94442;
-$light-grey-bg: #F9F9F9;
-$light-grey: #999;
-$custom-padding-container-fluid: 40px;
-.no-margin {
-    margin: 0 !important;
+$light-gray: #F9F9F9;
+body {
+    padding-top: 100px;
 }
 
-.separator {
-    border: 0;
-    border-top: 2px solid $dark;
-    width: 50px;
-}
-
-.col-xs-8r,
-.col-sm-8r,
-.col-md-8r,
-.col-lg-8r {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.col-xs-8r {
-    width: 12.5%;
-    float: left;
-}
-
-@media (min-width: $screen-sm) {
-    .col-sm-8r {
-        width: 12.5%;
-        float: left;
-    }
-}
-
-@media (min-width: $screen-md) {
-    .col-md-8r {
-        width: 12.5%;
-        float: left;
-    }
-}
-
-@media (min-width: $screen-lg) {
-    .col-lg-8r {
-        width: 12.5%;
-        float: left;
-    }
+hr {
+    border-color: $dark;
+    // à suppr plus tard
 }
 
 .col-xs-5ths,
@@ -91,34 +50,22 @@ $custom-padding-container-fluid: 40px;
     }
 }
 
-.container-fluid {
-    padding-bottom: $custom-padding-container-fluid;
-    padding-top: $custom-padding-container-fluid;
+// TYPE
+small,
+.small {
+    font-weight: inherit !important;
 }
 
-//////////// TYPE
-.green {
+.text-green {
     color: $green;
 }
 
-.grey {
-    color: $grey;
-}
-
-.dark {
+.text-dark {
     color: $dark;
 }
 
-.red {
-    color: #a94442;
-}
-
-.white {
+.text-white {
     color: #fff
-}
-
-.light-grey {
-    color: $light-grey;
 }
 
 @media (max-width: $screen-sm) {
@@ -127,25 +74,7 @@ $custom-padding-container-fluid: 40px;
     }
 }
 
-h2 {
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 28px;
-}
-
-h4 {
-    font-weight: 600;
-    font-size: 15px;
-    letter-spacing: 1px;
-}
-
-h5 {
-    font-weight: 600;
-    font-size: 14px;
-}
-
-b {
+semi-strong {
     font-weight: 500;
 }
 
@@ -164,7 +93,7 @@ bgg {
     font-weight: bold;
 }
 
-////////////// NAVBAR
+// NAVBAR
 #header_logo {
     padding: 0;
     img {
@@ -230,7 +159,7 @@ nav {
     }
 }
 
-///////////// BUTTONS
+// BUTTONS
 .btn {
     text-transform: uppercase;
     opacity: 1;
@@ -245,104 +174,29 @@ nav {
     opacity: .8;
 }
 
-//////////// ACCEUIL
-.acceuil-section {
-    margin-top: 100px;
-    text-align: center;
+// ACCEUIL
+#acceuil {
     background-image: url(../img/bg1.jpg);
-    span {
-        font-size: 56px;
-        font-weight: 600;
-    }
     h1 {
-        font-size: 27px;
-        font-weight: 600;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     }
-    #invest {
-        font-size: 24px;
-    }
-    h4 {
-        font-size: 18px;
-        text-transform: none;
-        margin: 10px 0;
-    }
-    .infos-acceuil {
-        margin: 50px 0;
-    }
-    .container-fluid {
-        padding: 105px 0;
-    }
 }
 
-@media (max-width: $screen-md) {
-    .acceuil-section {
-        span {
-            font-size: 42px !important;
-            font-weight: 600 !important;
-        }
-    }
-}
-
-@media (max-width: $screen-sm) {
-    #invest {
-        font-size: 20px !important;
-    }
-}
-
-////////// CONCEPT
+// CONCEPT
 .concept-section-acceuil {
-    background-color: $light-grey-bg;
-    .cont-concept {
-        margin-bottom: 40px;
-        margin-top: 15px;
-    }
+    background-color: $light-gray;
 }
 
-.concept-section-entreprises {
-    background-color: #FFF;
-    .cont-concept {
-        margin-bottom: 0;
-    }
+.img-concept {
+    max-height: 60px;
 }
 
-.concept-section {
-    span {
-        font-size: 16px;
-        margin: 10px 0;
-        margin-bottom: 40px;
-        margin-top: 20px;
-    }
-    .img-concept {
-        max-height: 60px;
-        width: auto;
-        margin-bottom: 10px;
-        margin-top: 35px;
-    }
-}
-
-//////////// BENEFICES
-.benefices-section-acceuil {
-    background-color: #fff;
-}
-
+// BENEFICES
 .benefices-section-entreprises {
-    background-color: $light-grey-bg;
+    background-color: $light-gray;
 }
 
-.benefices-section {
-    h2 {
-        margin-bottom: 40px;
-    }
-    .cont-benefices {
-        margin-top: 40px;
-        p {
-            margin-left: 20px;
-        }
-    }
-}
-
-////////////// TAB
+// TAB
 .nav-tabs-justified>.active>a,
 .nav-tabs.nav-justified>.active>a,
 .nav-tabs-justified>.active>a:hover,
@@ -385,7 +239,7 @@ nav {
     .tab-content {
         margin-top: -3px;
         border: 0;
-        border-top: 1px solid $light-grey;
+        border-top: 1px solid $dark;
         padding: 15px 0;
         p {
             color: $dark;
@@ -408,46 +262,13 @@ nav {
     }
 }
 
-//////////// OFFRES
+// OFFRES
 .offres-section {
-    background-color: $light-grey-bg;
-    span {
-        font-size: 16px;
-        font-weight: 100;
-    }
-    p {
-        font-size: 13px;
-        font-weight: 500;
-    }
-    h2 {
-        margin-bottom: 40px;
-    }
+    background-color: $light-gray;
 }
 
-.cont-offres {
-    margin-bottom: 30px;
-    margin-top: 12px;
-    i {
-        margin: 20px 0;
-    }
-}
-
-.icon-offre {
-    color: #FFF;
-    background-color: $green;
-    padding: 20px;
-    border-radius: 50%;
-}
-
-////////////// SELECTION
+// SELECTION
 .selection-section {
-    h2 {
-        margin-bottom: 40px;
-    }
-    .cont-selection {
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
     .product-image {
         position: relative;
         width: 100%;
@@ -479,7 +300,7 @@ nav {
         width: 50%;
         font-size: 13px;
         color: $dark;
-        background-color: $light-grey-bg;
+        background-color: $light-gray;
         text-align: center;
         border-right: 1px solid rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease-in-out;
@@ -511,28 +332,12 @@ nav {
     .product:hover .product-overlay {
         bottom: 0
     }
-    .product-desc {
-        small {
-            font-weight: 500;
-        }
-    }
 }
 
-////////////// MEDIA
+// MEDIA
 .media-section {
-    background-color: $light-grey-bg;
-    span {
-        font-weight: 100;
-    }
-    h2 {
-        margin-bottom: 40px;
-    }
-    .cont-media {
-        margin-bottom: 40px;
-        margin-top: 15px;
-    }
+    background-color: $light-gray;
     img {
-        margin: 25px 0;
         opacity: 1;
         transition: opacity .4s ease-in-out;
         -webkit-transition: opacity .4s ease-in-out;
@@ -544,7 +349,7 @@ nav {
     }
 }
 
-///////////// FOOTER
+// FOOTER
 footer {
     background-color: $dark;
     color: #CCC;
@@ -553,10 +358,6 @@ footer {
     font-size: 13px;
     #mid {
         line-height: 2.5;
-    }
-    hr {
-        width: 0;
-        margin: 10px 0;
     }
     a {
         color: #CCC;
@@ -569,7 +370,7 @@ footer {
         transition: color 200ms ease-in-out;
     }
     a:hover {
-        color: $light-grey;
+        color: $light-gray;
     }
     i {
         font-size: 12px;
@@ -600,123 +401,13 @@ footer {
     }
 }
 
-//////////////// TITRE PAGE
-.cont-title {
-    h1 {
-        letter-spacing: 2px;
-        font-size: 47px;
-        font-weight: 100;
-        color: #fff;
-    }
-    padding: 70px 0;
-    margin-top: 100px;
-    background-image: url("../img/foret3.jpg");
-    background-attachment: fixed;
-}
-
-/////////////// CONSTATS
-.constats-section {
-    h2 {
-        margin-bottom: 40px;
-    }
-    p {
-        font-weight: 500;
-        margin-top: 15px;
-    }
-    i {
-        margin-top: 40px;
-        font-size: 22px;
-    }
-    img {
-        margin-top: 50px;
-    }
-}
-
-/////////////// GESTION DURABLE
-.gestion-durable-section {
-    background-image: url(../img/foret4_mix.jpg);
-    background-attachment: fixed;
-    .gestion-durable-head {
-        margin-bottom: 40px;
-    }
-    h4 {
-        margin-top: 40px;
-        margin-bottom: 30px;
-    }
-    i {
-        float: left;
-        margin-top: 2px;
-    }
-    p {
-        font-weight: 500;
-        margin-left: 15px;
-    }
-    span {
-        font-size: 20px;
-    }
-}
-
-///////////// LES FORETS ECOTREE
-.les-forets-section {
-    h2 {
-        margin-bottom: 40px;
-    }
-    .cont-les-forets {
-        margin-top: 20px;
-    }
-    .tab-content {
-        h4 {
-            line-height: 2;
-            margin-bottom: 30px;
-        }
-    }
-}
-
-@media (max-width: $screen-xs) {
-    .les-forets-section {
-        h4 {
-            font-size: 12px;
-        }
-        .cont-les-forets {
-            margin: 0;
-            padding: 0;
-        }
-        .tabbable-panel {
-            padding: 0;
-        }
-    }
-}
-
-////////////// ENTREPRISES
-.entreprises-title {
-    background-image: url(../img/foret3.jpg);
-    margin-top: 100px;
-    background-attachment: fixed;
-    h1 {
-        font-weight: 100;
-        font-size: 47px;
-        margin: 50px 0;
-    }
-    button {
-        margin-bottom: 50px;
-    }
-}
-
-////////////// RAPPORT CAROUSEL
+// RAPPORT CAROUSEL
 .carousel-fade {
     width: 90%;
     .carousel-inner {
         min-height: 200px;
         .item {
             transition-property: opacity;
-            p {
-                padding: 30px 0;
-                font-size: 16px;
-                font-weight: 500;
-            }
-            h4 {
-                margin-bottom: 50px;
-            }
         }
         .item,
         .active.left,
@@ -756,59 +447,8 @@ footer {
     height: 100%;
 }
 
-/////////// EVENT
-.event-section {
-    h2 {
-        line-height: 1.5;
-        width: 80%;
-        margin-bottom: 40px;
-    }
-    img {
-        margin-top: 40px;
-    }
-    a {
-        text-align: center;
-    }
-    h4 {
-        line-height: 1.5;
-    }
-}
-
-/////////////// VALEURS
-.valeurs-section {
-    h2 {
-        margin-bottom: 40px;
-    }
-    h4 {
-        margin-top: 40px;
-        margin-bottom: 20px;
-    }
-    p {
-        line-height: 2;
-    }
-}
-
-//////////////// L'ÉQUIPE
+// L'ÉQUIPE
 .equipe-section {
     background-image: url(../img/foret4_mix.jpg);
     background-attachment: fixed;
-}
-
-////////////// MENTIONS LEGALES & CONDITIONS GENERALES
-.listing-section {
-    margin-top: 100px;
-    margin-bottom: 30px;
-    p {
-        font-weight: 100;
-    }
-    h5 {
-        font-size: 13px;
-        margin-top: 30px;
-    }
-    h3 {
-        margin: 70px 0;
-    }
-    hr {
-        border-top: 2px solid $green;
-    }
 }
