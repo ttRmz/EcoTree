@@ -35,3 +35,7 @@ gulp.task('watch_view', function () {
     livereload.listen();
     gulp.watch(viewsDir + '/*.html', ['prod']);
 });
+gulp.task('watch_all', function () {
+    livereload.listen();
+    gulp.start('watch_view', 'watch_sass')
+});
