@@ -89,6 +89,9 @@ semi-strong {
 .navbar {
     transition: all $duree_transition $transition_timing_function;
     @include transition(all $duree_transition $transition_timing_function);
+    li a {
+        @include transition(padding $duree_transition $transition_timing_function);
+    }
 }
 
 .top-nav-collapse #header_logo img {
@@ -98,7 +101,6 @@ semi-strong {
 .top-nav-collapse li a {
     padding-top: $navbar-padding-reduite !important;
     padding-bottom: $navbar-padding-reduite !important;
-    @include transition(padding $duree_transition $transition_timing_function);
 }
 
 nav {
