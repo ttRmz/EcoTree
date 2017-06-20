@@ -5856,11 +5856,6 @@ body {
 .cont-acceuil {
   background-image: url(../img/kerautret.jpg); }
 
-.icon-offre {
-  padding: 20px;
-  border-radius: 50%;
-  background-color: #78a538; }
-
 a,
 span,
 p {
@@ -5869,9 +5864,6 @@ p {
 small,
 .small {
   font-weight: inherit !important; }
-
-.text-white {
-  color: #fff; }
 
 .semi-strong,
 semi-strong {
