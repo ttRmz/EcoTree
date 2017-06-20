@@ -87,6 +87,7 @@ semi-strong {
 }
 
 .navbar {
+    transition: all $duree_transition $transition_timing_function;
     @include transition(all $duree_transition $transition_timing_function);
 }
 
@@ -163,10 +164,6 @@ nav {
 }
 
 // CONCEPT
-.concept-section-acceuil {
-    background-color: $light-gray;
-}
-
 .img-concept {
     max-height: 60px;
 }
