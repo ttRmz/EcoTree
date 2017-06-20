@@ -6074,30 +6074,6 @@ a {
   .img-hover:hover {
     opacity: .8; }
 
-footer .fa-facebook,
-footer .fa-twitter,
-footer .fa-linkedin,
-footer .fa-youtube,
-footer .fa-instagram {
-  padding: 11px;
-  color: #FFF;
-  border-radius: 10%; }
-
-footer .fa-facebook {
-  background-color: #3B5998; }
-
-footer .fa-twitter {
-  background-color: #1DA1F2; }
-
-footer .fa-linkedin {
-  background-color: #0077B5; }
-
-footer .fa-youtube {
-  background-color: #E62117; }
-
-footer .fa-instagram {
-  background-color: #3F729B; }
-
 .carousel-fade {
   width: 90%; }
   .carousel-fade .carousel-inner {
