@@ -87,7 +87,11 @@ semi-strong {
 }
 
 .navbar {
+    transition: all $duree_transition $transition_timing_function;
     @include transition(all $duree_transition $transition_timing_function);
+    li a {
+        @include transition(padding $duree_transition $transition_timing_function);
+    }
 }
 
 .top-nav-collapse #header_logo img {
@@ -97,7 +101,6 @@ semi-strong {
 .top-nav-collapse li a {
     padding-top: $navbar-padding-reduite !important;
     padding-bottom: $navbar-padding-reduite !important;
-    @include transition(padding $duree_transition $transition_timing_function);
 }
 
 nav {
@@ -163,10 +166,6 @@ nav {
 }
 
 // CONCEPT
-.concept-section-acceuil {
-    background-color: $light-gray;
-}
-
 .img-concept {
     max-height: 60px;
 }
@@ -328,33 +327,6 @@ a {
     }
 }
 
-footer {
-    .fa-facebook,
-    .fa-twitter,
-    .fa-linkedin,
-    .fa-youtube,
-    .fa-instagram {
-        padding: 11px;
-        color: #FFF;
-        border-radius: 10%;
-    }
-    .fa-facebook {
-        background-color: #3B5998;
-    }
-    .fa-twitter {
-        background-color: #1DA1F2;
-    }
-    .fa-linkedin {
-        background-color: #0077B5;
-    }
-    .fa-youtube {
-        background-color: #E62117;
-    }
-    .fa-instagram {
-        background-color: #3F729B;
-    }
-}
-
 // RAPPORT CAROUSEL
 .carousel-fade {
     width: 90%;
@@ -399,4 +371,8 @@ footer {
 .carousel-inner,
 .carousel-inner .item {
     height: 100%;
+}
+
+footer {
+    background-color: #333;
 }
