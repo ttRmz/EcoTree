@@ -6096,13 +6096,18 @@ a {
   .carousel-fade .carousel-control {
     z-index: 2; }
   .carousel-fade .carousel-indicators {
-    background-color: #78a538;
     left: 0;
     position: absolute;
     margin: 0;
     width: 100%;
     padding: 0;
     text-align: center; }
+    .carousel-fade .carousel-indicators li {
+      border: 0;
+      background-color: #78a538;
+      opacity: 0.5; }
+    .carousel-fade .carousel-indicators li.active {
+      opacity: 1 !important; }
 
 .carousel,
 .carousel-inner,

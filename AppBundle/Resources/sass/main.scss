@@ -357,7 +357,14 @@ a {
         z-index: 2;
     }
     .carousel-indicators {
-        background-color: $green;
+        li {
+            border: 0;
+            background-color: $green;
+            opacity: 0.5;
+        }
+        li.active {
+            opacity: 1 !important;
+        }
         left: 0;
         position: absolute;
         margin: 0;
