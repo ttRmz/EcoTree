@@ -5905,6 +5905,29 @@ nav {
     text-transform: uppercase;
     font-weight: bold; }
 
+.navbar-snd ul li {
+  display: inline-block; }
+  .navbar-snd ul li a {
+    display: block;
+    padding: 5px !important;
+    margin-left: 5px;
+    border-radius: 14px;
+    transition: background-color 200ms ease-in-out; }
+    .navbar-snd ul li a small {
+      box-sizing: border-box;
+      padding: 0 5px; }
+
+.navbar-snd li:hover a,
+.navbar-snd li.active a {
+  background-color: rgba(0, 0, 0, 0.15); }
+
+.navbar-snd span {
+  padding: 15px 0; }
+
+.navbar-snd ul {
+  margin: 0;
+  padding: 8px 0; }
+
 @media (min-width: 1000px) {
   .top-nav-collapse {
     padding: 0; }
