@@ -5905,6 +5905,14 @@ nav {
     text-transform: uppercase;
     font-weight: bold; }
 
+.navbar-snd {
+  margin: 0;
+  height: inherit !important; }
+  .navbar-snd li a {
+    padding: 0 !important; }
+  .navbar-snd .lead {
+    font-size: x-large; }
+
 @media (min-width: 1000px) {
   .top-nav-collapse {
     padding: 0; }

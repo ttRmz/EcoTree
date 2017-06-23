@@ -113,6 +113,17 @@ nav {
     }
 }
 
+.navbar-snd {
+    li a {
+        padding: 0 !important;
+    }
+    .lead {
+        font-size: x-large;
+    }
+    margin: 0;
+    height: inherit !important;
+}
+
 @media(min-width:1000px) {
     .top-nav-collapse {
         padding: 0;
