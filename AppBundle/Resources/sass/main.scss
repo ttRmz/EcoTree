@@ -114,14 +114,33 @@ nav {
 }
 
 .navbar-snd {
-    li a {
-        padding: 0 !important;
+    ul li {
+        display: inline-block;
+        a {
+            display: block;
+            padding: 5px !important;
+            margin-left: 5px;
+            border-radius: 14px;
+            transition: background-color 200ms ease-in-out;
+            small {
+                box-sizing: border-box;
+                padding: 0 5px;
+            }
+        }
     }
-    .lead {
-        font-size: x-large;
+    li:hover,
+    li.active {
+        a {
+            background-color: rgba(0, 0, 0, 0.15);
+        }
     }
-    margin: 0;
-    height: inherit !important;
+    span {
+        padding: 15px 0;
+    }
+    ul {
+        margin: 0;
+        padding: 8px 0;
+    }
 }
 
 @media(min-width:1000px) {
