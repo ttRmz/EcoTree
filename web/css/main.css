@@ -5815,7 +5815,7 @@ button.close {
     display: none !important; } }
 
 body {
-  padding-top: 100px; }
+  padding-top: 170px; }
 
 .col-xs-5ths,
 .col-sm-5ths,
@@ -5908,6 +5908,9 @@ nav {
 .navbar-snd ul li {
   display: inline-block; }
   .navbar-snd ul li a {
+    background-color: #78a538;
+    font-weight: bold;
+    color: white;
     display: block;
     padding: 5px !important;
     margin-left: 5px;
@@ -5919,6 +5922,7 @@ nav {
 
 .navbar-snd li:hover a,
 .navbar-snd li.active a {
+  color: white;
   background-color: rgba(0, 0, 0, 0.15); }
 
 .navbar-snd span {

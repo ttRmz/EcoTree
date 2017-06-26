@@ -3,7 +3,8 @@
 @import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'custom';
 body {
-    padding-top: 100px;
+    padding-top: 170px;
+    //    temporaire
 }
 
 .col-xs-5ths,
@@ -117,6 +118,9 @@ nav {
     ul li {
         display: inline-block;
         a {
+            background-color: $green;
+            font-weight: bold;
+            color: white;
             display: block;
             padding: 5px !important;
             margin-left: 5px;
@@ -131,6 +135,7 @@ nav {
     li:hover,
     li.active {
         a {
+            color: white;
             background-color: rgba(0, 0, 0, 0.15);
         }
     }
