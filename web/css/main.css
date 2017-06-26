@@ -5915,7 +5915,7 @@ nav {
     display: block;
     padding: 5px !important;
     margin-left: 5px;
-    border-radius: 14px;
+    border-radius: 50px;
     transition: background-color 200ms ease-in-out; }
     .navbar-snd ul li a small {
       box-sizing: border-box;
