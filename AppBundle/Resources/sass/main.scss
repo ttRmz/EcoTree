@@ -150,17 +150,21 @@ nav {
 }
 
 .dropdown {
-    ul li a {
-        i {
-            width: 20px;
-            text-align: center;
+    ul {
+        width: 215px;
+        li a {
+            i {
+                width: 20px;
+                text-align: center;
+            }
+            transition: all 200ms ease-in-out;
+            padding-bottom: 10px;
+            padding-top: 10px;
         }
-        transition: all 200ms ease-in-out;
-        padding-bottom: 10px;
-        padding-top: 10px;
     }
     ul li a:hover {
         color: $green !important;
+        padding-left: 30px
     }
 }
 

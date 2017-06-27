@@ -5933,16 +5933,19 @@ nav {
   margin: 0;
   padding: 8px 0; }
 
-.dropdown ul li a {
-  transition: all 200ms ease-in-out;
-  padding-bottom: 10px;
-  padding-top: 10px; }
-  .dropdown ul li a i {
-    width: 20px;
-    text-align: center; }
+.dropdown ul {
+  width: 215px; }
+  .dropdown ul li a {
+    transition: all 200ms ease-in-out;
+    padding-bottom: 10px;
+    padding-top: 10px; }
+    .dropdown ul li a i {
+      width: 20px;
+      text-align: center; }
 
 .dropdown ul li a:hover {
-  color: #78a538 !important; }
+  color: #78a538 !important;
+  padding-left: 30px; }
 
 @media (min-width: 1000px) {
   .top-nav-collapse {
