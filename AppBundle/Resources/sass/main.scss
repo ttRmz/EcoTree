@@ -149,7 +149,7 @@ nav {
     }
 }
 
-.dropdown {
+.dropdown-compte {
     ul {
         width: 215px;
         li a {
@@ -166,6 +166,10 @@ nav {
         color: $green !important;
         padding-left: 30px
     }
+}
+
+.products-cart {
+    width: 400px;
 }
 
 @media(min-width:1000px) {
