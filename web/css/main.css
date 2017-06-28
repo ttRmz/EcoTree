@@ -5950,6 +5950,13 @@ nav {
 .products-cart {
   width: 370px; }
 
+#badge-shopping-cart {
+  position: absolute;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: #78a538; }
+
 @media (min-width: 1000px) {
   .top-nav-collapse {
     padding: 0; }
