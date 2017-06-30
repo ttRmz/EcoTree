@@ -149,7 +149,7 @@ nav {
     }
 }
 
-.dropdown {
+.dropdown-compte {
     ul {
         width: 215px;
         li a {
@@ -166,6 +166,18 @@ nav {
         color: $green !important;
         padding-left: 30px
     }
+}
+
+.products-cart {
+    width: 370px;
+}
+
+#badge-shopping-cart {
+    position: absolute;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: $green;
 }
 
 @media(min-width:1000px) {
