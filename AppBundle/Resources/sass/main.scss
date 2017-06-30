@@ -2,10 +2,47 @@
 @import 'variables';
 @import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'custom';
+html {
+    min-height: 100%;
+}
+
 body {
-    font-weight: 100;
-    padding-top: 170px;
-    //    temporaire
+    font-weight: 100%;
+    padding-top: 100px;
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.body-nav-snd {
+    padding-top: 150px;
+}
+
+.alignement-y {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.well {
+    padding-top: 29px;
+}
+
+.separateur {
+    width: 40px;
+    border-top: 2px solid $gray-base;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.margin-zero {
+    margin: 0 !important;
+}
+
+.margin-petit {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .col-xs-5ths,
@@ -59,6 +96,28 @@ body {
 }
 
 // TYPE
+h1 {
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+h2,
+h3 {
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+h4 {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+h5,
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
 a,
 span,
 p {
@@ -157,7 +216,8 @@ nav {
                 width: 20px;
                 text-align: center;
             }
-            transition: all 200ms ease-in-out;
+            transition: color 200ms ease-in-out,
+            padding 200ms ease-in-out;
             padding-bottom: 10px;
             padding-top: 10px;
         }
@@ -168,12 +228,12 @@ nav {
     }
 }
 
-.products-cart {
+.produits-panier {
     width: 370px;
+    padding: 20px 15px;
 }
 
-#badge-shopping-cart {
-    position: absolute;
+#badge-panier {
     position: absolute;
     top: 30px;
     left: 30px;
@@ -236,6 +296,14 @@ nav {
     background-image: url(../img/bg1.jpg);
     h1 {
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.valeurs-acceuil {
+    padding-bottom: 60px;
+    padding-top: 25px;
+    .valeur {
+        font-size: 48px;
     }
 }
 

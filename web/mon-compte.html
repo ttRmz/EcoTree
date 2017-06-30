@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="body-nav-snd">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -109,33 +109,40 @@
                     </li>
                     <li class="dropdown hidden-xs hidden-sm">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"> <span id="badge-shopping-cart" class="badge"><b class="fa-inverse">1</b></span></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"> <span id="badge-panier" class="badge"><b class="fa-inverse">1</b></span></i>
                         </a>
-                        <div id="products-menu" class="dropdown-menu products-cart clearfix" role="menu">
-                            <div class="col-xs-12">
-                                <h5 class="text-uppercase">
-                                    <strong>Panier</strong>
-                                </h5>
+                        <div class="dropdown-menu produits-panier" role="menu">
+                            <h5 class="text-uppercase">
+                                <strong>Panier</strong>
+                            </h5>
+                            <div class="row">
+                                <hr>
                             </div>
-                            <div class="col-xs-3">
-                                <a href="panier.html">
-                                    <img class="img img-responsive" src="https://d2omnifng3m7y7.cloudfront.net/img/articles/douglas_jeune_plant.jpg" alt="">
-                                </a>
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <a href="panier.html">
+                                        <img class="img img-responsive" src="https://d2omnifng3m7y7.cloudfront.net/img/articles/douglas_jeune_plant.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-xs-7">
+                                    <a href="panier.html">
+                                        <strong class="text-capitalize small">Douglas - Jeune plant</strong>
+                                    </a>
+                                    <br>
+                                    <span class="small">15€</span>
+                                </div>
+                                <div class="col-xs-2 text-right">x1</div>
                             </div>
-                            <div class="col-xs-7">
-                                <a href="panier.html">
-                                    <strong class="text-capitalize small">Douglas - Jeune plant</strong>
-                                </a>
-                                <br>
-                                <span class="small">15€</span>
+                            <div class="row">
+                                <hr>
                             </div>
-                            <div class="col-xs-2 text-right">x1</div>
-                            <div class="col-xs-12"></div>
-                            <div class="col-xs-6">
-                                <span class="text-success lead"><strong>15,00 €</strong></span>
-                            </div>
-                            <div class="col-xs-6 text-right">
-                                <a href="panier.html" class="btn btn-success">voir le panier</a>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <span class="text-success lead"><strong>15,00 €</strong></span>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <a href="panier.html" class="btn btn-success">voir le panier</a>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -175,7 +182,7 @@
             </div>
         </div>
     </nav>
-    <div class="container">
+    <div class="container alignement-y">
         <div class="row">
             <h4 class="text-uppercase text-center text-success">
                 <strong>Vous n'avez pas d'arbres</strong>
