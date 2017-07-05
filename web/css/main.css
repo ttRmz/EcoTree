@@ -5882,7 +5882,10 @@ footer {
   background-attachment: fixed; }
 
 .cont-acceuil {
-  background-image: url(../img/kerautret.jpg); }
+  position: relative; }
+
+#controlBar_bgndVideo {
+  display: none !important; }
 
 .list-group-item {
   padding: 5px 0; }
