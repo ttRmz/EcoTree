@@ -75,67 +75,65 @@
         </div>
     </nav>
     <!-- Acceuil -->
-    <header class="video-section m-b-lg">
-        <div class="pattern-overlay text-center">
-            <!--           https://github.com/rittamdebnath/donut-->
-            <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=9d8wWcJLnFI',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">background</a>
-        </div>
-        <div class="container-fluid cont-acceuil alignement-y">
-            <div class="container">
-                <div class="row text-center fa-inverse">
-                    <h2>
-                        Intéressez-vous à la forêt, elle vous intéressera à ses bénéfices !
-                    </h2>
-                    <h3 id="invest" class="">
-                        <strong class="text-uppercase">
+    <div style="height:596px">
+        <div class="" id="video_bg">
+            <div class="container-fluid cont-acceuil alignement-y">
+                <div class="container">
+                    <div class="row text-center fa-inverse">
+                        <h2>
+                            Intéressez-vous à la forêt, elle vous intéressera à ses bénéfices !
+                        </h2>
+                        <h3 id="invest" class="">
+                            <strong class="text-uppercase">
                         Investissez en devenant propriétaire d'arbres
                     </strong>
-                    </h3>
-                    <div class="row valeurs-acceuil">
-                        <div class="col-sm-4 ">
-                            <h6>
-                                <i class="fa fa-globe fa-5x hidden-xs"></i>
-                            </h6>
-                            <span class="valeur"><semi-strong>12 907</semi-strong></span>
-                            <h4>
-                                <strong>
+                        </h3>
+                        <div class="row valeurs-acceuil">
+                            <div class="col-sm-4 ">
+                                <h6>
+                                    <i class="fa fa-globe fa-5x hidden-xs"></i>
+                                </h6>
+                                <span class="valeur"><semi-strong>12 907</semi-strong></span>
+                                <h4>
+                                    <strong>
                                 Arbres plantés
                             </strong>
-                            </h4>
-                        </div>
-                        <div class="col-sm-4 ">
-                            <h6>
-                                <i class="fa fa-cloud fa-5x hidden-xs"></i>
-                            </h6>
-                            <span class="valeur"><semi-strong>12 907</semi-strong></span>
-                            <h4>
-                                <strong>
+                                </h4>
+                            </div>
+                            <div class="col-sm-4 ">
+                                <h6>
+                                    <i class="fa fa-cloud fa-5x hidden-xs"></i>
+                                </h6>
+                                <span class="valeur"><semi-strong>12 907</semi-strong></span>
+                                <h4>
+                                    <strong>
                                 kg de CO2 absorbés
                             </strong>
-                            </h4>
-                        </div>
-                        <div class="col-sm-4  ">
-                            <h6>
-                                <i class="fa fa-plane fa-5x hidden-xs"></i>
-                            </h6>
-                            <span class="valeur"><semi-strong>12 907</semi-strong></span>
-                            <h4>
-                                <strong>
+                                </h4>
+                            </div>
+                            <div class="col-sm-4  ">
+                                <h6>
+                                    <i class="fa fa-plane fa-5x hidden-xs"></i>
+                                </h6>
+                                <span class="valeur"><semi-strong>12 907</semi-strong></span>
+                                <h4>
+                                    <strong>
                                 Vols Paris / New York
                             </strong>
-                            </h4>
+                                </h4>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 text-right text-xs-center">
-                        <button type="button" class="btn btn-success">J'achete des arbres</button>
-                    </div>
-                    <div class="col-sm-6  text-left text-xs-center">
-                        <button type="button" class="btn btn-success">J'achete des arbres</button>
+                        <div class="col-sm-6 text-right text-xs-center">
+                            <button type="button" class="btn btn-success">J'achete des arbres</button>
+                        </div>
+                        <div class="col-sm-6  text-left text-xs-center">
+                            <button type="button" class="btn btn-success">J'achete des arbres</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
     <!-- Concept -->
     <div class="container-fluid bg-info alignement-y ">
         <div class="container text-center text-success">
@@ -605,18 +603,9 @@
 
     <!-- Scrolling Nav JavaScript -->
 
+    <script src="js/jquery.videoBG.js"></script>
     <script src="js/scrolling-nav.js"></script>
-    <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".player").mb_YTPlayer();
-            $(".player").YTPApplyFilters({
-                blur: 0
-            })
-        });
 
-    </script>
 </body>
 
 </html>
